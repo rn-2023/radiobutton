@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { StyleSheet, Text, View, Pressable } from 'react-native';
 
-export default function RadioButton({options, onPress, style}) {
+export default RadioButton = ({options, onPress, style}) => {
 
   const [value, setValue] = useState(null);
 
